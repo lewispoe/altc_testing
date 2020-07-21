@@ -9,8 +9,9 @@ Given(/^I am on the example home page$/, async () => {
 
 Then('I should see {string}', async function (string) {
     const main = Selector('header').with({ boundTestRun: testController })
+    const header = main.find('p').with({ boundTestRun: testController });
 
-    await testController.expect(main.child('p').innerText).contains(string)
+    await testController.expect(header.innerText).contains(string)
 });
 
 
