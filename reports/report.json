@@ -1,0 +1,487 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test out capabilities",
+    "line": 1,
+    "id": "test-out-capabilities",
+    "tags": [],
+    "uri": "features\\altc_example.feature",
+    "elements": [
+      {
+        "id": "test-out-capabilities;load-the-app-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Load the app page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the example home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Penzance Trains...\"",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4024000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-out-capabilities;search-for-available-tickets",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search for available tickets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the example home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 943000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select \"Penzance\" on the from-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I select \"Redruth\" on the to-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button on the Home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the results table should exist",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-out-capabilities;search-for-available-tickets-without-selecting-arrival-point",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Search for available tickets without selecting arrival point",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the example home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I select \"Penzance\" on the from-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the submit button on the Home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the error \"Error: Arrival Station Not Set\" should display",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-out-capabilities;search-for-available-tickets-without-selecting-departure-point",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Search for available tickets without selecting departure point",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the example home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I select \"Redruth\" on the to-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click the submit button on the Home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the error \"Error: Departure Station Not Set\" should display",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-out-capabilities;search-for-available-tickets-for-the-same-departure-and-destination",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Search for available tickets for the same departure and destination",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the example home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I select \"Redruth\" on the from-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I select \"Redruth\" on the to-station dropdown",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click the submit button on the Home page",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the error \"Error: Departure station cannot be the same as Arrival Station\" should display",
+            "match": {
+              "location": "features\\step_definitions\\altc.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
