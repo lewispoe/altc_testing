@@ -7,11 +7,11 @@ Feature: Test out capabilities
   #   Then I should see "Penzance Trains..."
 
   #Start adding the tests....
-  # Scenario: Search for available tickets
-  #   When I select "Penzance" on the from-station dropdown
-  #   And I select "Redruth" on the to-station dropdown
-  #   And I click the submit button on the Home page
-  #   Then the results table should exist
+  Scenario: Search for available tickets
+    When I select "Penzance" on the from-station dropdown
+    And I select "Redruth" on the to-station dropdown
+    And I click the submit button on the Home page
+    Then the results table should exist
 
   Scenario: Search for available tickets without selecting arrival point
     When I select "Penzance" on the from-station dropdown
