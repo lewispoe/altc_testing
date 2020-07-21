@@ -25,8 +25,8 @@ function createTestFile() {
             '("test", testControllerHolder.capture)')
     }
     // Create a runner function with configurations like src, screenshots, browsers.
-    function runTest(browser) {
-        createTestCafe('localhost', 1337, 1338)
+    function runTest(iteration, browser) {
+        createTestCafe('localhost', 1337+iteration, 1338+iteration)
             .then(function(tc) {
                 cafeRunner = tc;
                 const runner = tc.createRunner();
@@ -53,8 +53,9 @@ function createTestFile() {
     55
     */
     Before(function() {
-        runTest('chrome');
+        runTest(n, 'chrome');
         createTestFile();
+        n+=2;
         return this.waitForTestController.then(function(testController) {
             return testController.maximizeWindow();
         });
